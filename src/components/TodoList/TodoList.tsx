@@ -26,7 +26,6 @@ export const TodoList: React.FC<Props> = ({
   updateTodo,
   loadingIds,
 }) => {
-  const 
   return (
     <section className="todoapp__main">
       {visibleTodos.map(todo => (
